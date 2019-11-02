@@ -16,7 +16,8 @@ Some of My preferred frontend libraries/technologies(Apart from HTML,CSS and van
                 applied to it.
 6) Redux - When state becomes too complex in react(before hooks),Redux can be used for global state management.
 7.) JSON - For transfering of data, When our frontend is decoupled from the backend, JSON is used to transfer data.
-8.) Pixel Perfect Chrome extension,React dev tools,etc.
+8.) Pixel Perfect Chrome extension,React dev tools.
+9.) Website Performance analysing websites like gtmetrix,etc.
 
 
 
