@@ -1,0 +1,29 @@
+position - Fixed,sticky,relative,absolute.
+
+1.) Fixed - An element with fixed position is displayed with respect to the viewport/browser window.
+            This element would remain at that exact position even if user scrolls.
+            Also it does not effect the flow of elements.
+
+2.) Sticky- This behaves like fixed after a certain time(When the scroll finishes) it gets fixed.
+            It behaves like relative at starting and after certain scroll it gets fixed.
+            This effects flow of elements.(It occupies space).
+
+USE CASES OF FIXED AND STICKY - 1.) Adds
+                                2.) Navbar
+                                3.) Customer chat support pop up box
+                                4.) Whatsapp link displayed for contact purpose.
+
+
+3.) Relative - USE-CASE : When you have to move an element without disturbing the document flow(Everything stays at their place).
+                          By setting position:relative, nothing would happend unless you apply top,left,bottom or right.
+                          Now it would be relative to itself.
+4.) Absolute - Unlike relative, it actually floats around.
+                It is absolute in respect to the postitioning context(container).
+                If parent has a postion:relative property, and child has absolute property then the origin
+                would be the starting point of parent.(and we can position child element using top,left,bottom and right).
+
+                NOTE -  Absolute is relative to its parent whose position is set relative, if no parent's 
+                        position is set relative, it gets relative to the body.
+
+USE -CASES OF RELATIVE AND ABSOLUTE - When you have to move things around in your document. 
+                                    

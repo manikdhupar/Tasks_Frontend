@@ -1,0 +1,30 @@
+Difference betweeen flex float and grid.
+
+Flex was introduced with flexbox.
+Grid was introduced with css grid.
+Float was not introduced to make columns or rows or grids.
+
+Float - Float is used when you want elements to float around i.e come next to each other.
+        Eg - if you want to keep image and text next to each other. We can use floats over here.
+        Or If there are many images and we want them to be side by side. We can use floats.(Not intended)
+
+
+        NOTE :  CLEARFIX class should be applied so as after this elements wont float around.
+
+Flexbox - Flexbox was the first attempt to make columns or rows. Floats can have problems, so flexbox
+          was introduced.
+
+          With flexbox it is much easy to crete columns. apply display:flex to parent and now the children
+          would be flex items. We can flex-wrap:wrap so that the flex-items would now be adjusted with the
+          responsiveness and we can give flex-basis to tell how much items should come in one row at given viewport size.
+
+          Centering things vertically become very easy with flexbox.
+
+          Flexbox is only for row or only for column.
+
+Grid -  Since flexbox is only for row or only for column. Grid works in 2-dimension.
+        Grid solves the problem of flexbox for 2-D and it is very easy to create layout using grid.
+
+My pick - I use flexbox or grid for one container element(and not whole document) and how you want to layout that element and its child.
+          Mostly i use flexbox, because there are rare cases when you cant solve a problem using flexbox, then you need to switch to grid
+          but flexbox almost solves the issues. Also flexbox has better browser support than grid.

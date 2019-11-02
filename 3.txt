@@ -1,0 +1,32 @@
+How to opmitize websites
+
+Some of the things to look for which can cause website to slow down - 
+
+1.) Minify JS,CSS and use external css - use minified files.
+
+2.) Compressing Images - Majorly if a website is slow, images are causing your website to slow down.
+                         Images should be compressed.
+
+3.) Scaling Images - Do not resize images through html and css. Always scale images before. 
+
+4.) LAZY LOADING(Highly useful in SPA) - The downside of SPA'S(React) is that the initial Loading time is quite Highly
+    and this can be solved using lazy loading i.e load components only when they are needed. Only when a request is send
+    to the route(react router) that renders that component, only then the component should load.
+
+5.) async over sync - Since Javascript is single threaded, we dont want to block the main thread.Therefore every request that is time
+    consuming(eg - network request, database fetch) should be async so that our main thread is not blocked and our browser dont get stuck during that operation.
+
+6.) Adding external css stylesheet instead of inline,etc.
+
+NOTE : ALL THESE OPTIMIZATIONS CAN BE CHECKED THROUGH gtmetrix
+
+------------------------------------------------------------------------
+
+Some improvements in cognitensor.com website (which are causing it to slow down)
+
+ Scaling Images - The following images are resized in HTML or CSS. 
+                    Serving scaled images could save 747.2KiB (94% reduction).
+    a)   https://public-assets-ct.s3.us-east-2.amazonaws.com/website/landing/mac3.png is resized in HTML or CSS from 4062x2316 to 911x519. Serving a scaled image could save 741.8KiB (94% reduction).
+    b)   https://public-assets-ct.s3.us-east-2.amazonaws.com/website/logo_ct.png is resized in HTML or CSS from 400x150 to 171x64. Serving a scaled image could save 5.4KiB (81% reduction).
+
+NOTE : For Compressing Images, There can be a tradoff between quality and compression.

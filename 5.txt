@@ -1,0 +1,31 @@
+Some of My preferred frontend libraries/technologies(Apart from HTML,CSS and vanilla javascript).
+
+1.) Web Storage API'S - For login state persistence, If a reload is made, our login state can be lost.
+                        We can store our tokens in JSON form in localStorage as a key value pair
+                        and after a reload we can send a network request to our server to validate that token.
+2) Developer tools(chrome) - Many uses like checking responsiveness on different devices,
+                     Correcting pixel perfect(using chrome extension)
+                     Network tab,etc.
+3) Bootstrap - USE-CASE : Very fast development(Styling and grid or layout).
+4.) jQuery - I used its extensions for smooth scroll,carousel slider,etc.
+             Using its extensions, saved a lot of my time.
+5.) React.js - It is a library to create user interfaces. It uses reusable components.
+                Can be used as an SPA or Multi page as per requirement.
+                Sometimes, vanilla js becomes too complex for dom manipulation, and we can use React.js
+                Also, due to the virtual dom it becomes quite fast and techniques like lazy loading can be 
+                applied to it.
+6) Redux - When state becomes too complex in react(before hooks),Redux can be used for global state management.
+7.) JSON - For transfering of data, When our frontend is decoupled from the backend, JSON is used to transfer data.
+8.) Pixel Perfect Chrome extension,React dev tools,etc.
+
+
+
+Frontend technique that is highly useful while development
+
+Event bubbling - Practical USE CASE - If there are millions of items, instead of applying event handler
+                                      to each item, wrap them into a parent div/container and apply
+                                      event handler to parent, due to event bubbling the event would
+                                      trigger to it and using event.target we can access the target element.
+
+
+IIFE,closures,etc.

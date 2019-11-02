@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.parent__card {
+  display: flex;
+  justify-content: center;
+}
+
+.card__img {
+  display: none;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.card__btn {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card__icons {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card__icons a {
+  margin: 0px 16px;
+}
+
+.icon {
+  font-size: 2rem;
+}

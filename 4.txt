@@ -1,0 +1,17 @@
+Js Animation vs CSS Animation
+
+Depends on the state which one to choose
+
+If the animation can be done with css, css should be choosen due to following reasons -> 
+
+a) Cost - Javascript is expensive than css. Apart from loading, it has to be parsed and then compiled(on the fly).
+b) If there is some bug, whole app would crash but in case of css at max the css would crash which is less harmful.
+c) Sometimes browser optimises the css and js dont have access to these api's(Reference from stackOverflow).
+
+
+Which of the two i use - Both
+1.) Complex-  If animation is simple, I use css transition, else I use javascript for complex animations.
+
+2.) If no element triggers the animation - Always use css animation(Applies the animation is not too complex)
+
+3.)For events like onclick,scroll,etc choose javascript for animation.
